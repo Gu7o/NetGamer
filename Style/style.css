@@ -1,3 +1,34 @@
+:root{
+    --azul:#1b2838;
+    --branco:white;
+    --preto:#171a21;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    background-color:black ;
+    background-color: var(--azul);
+}
+header{
+    width:100%;
+    font-family: 'Roboto Mono', monospace;
+    color: var(--branco);
+    background-color: var(--preto);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.steamlogo{
+    
+    border-radius: 50%;
+    height: 50px;
+    width: 60px;
 }
