@@ -67,5 +67,16 @@ header{
     left:50px;
     z-index:1;
     font-size: 15px; 
-    width:300px;
+    width:140px;
+    height: 40px;
+}
+.moreinfo{
+    margin-top:10px ;
+    position:absolute;
+    top: 370px;
+    left:200px;
+    z-index:1;
+    font-size: 15px; 
+    width:140px;
+    height:40px;
 }
