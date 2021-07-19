@@ -10,6 +10,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     background-color: var(--azul);
@@ -20,15 +21,51 @@ header{
     color: var(--branco);
     background-color: var(--preto);
 }
+.titulo{
+    margin:1%;  
+}
 .container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
+    /*padding: 1%;*/
 
+}
 .steamlogo{
-    
+    margin:1%;
     border-radius: 50%;
     height: 50px;
     width: 60px;
+}
+.container1{
+    height: 400px;
+    color: white;
+    z-index:0;
+}
+.mainVideo{
+    object-fit:cover;
+}
+.titulo1{
+    position:absolute;
+    top: 200px;
+    left:50px;
+    z-index:1;
+    font-size: 50px;
+}
+.desc1{
+    margin-top:10px ;
+    position:absolute;
+    top: 250px;
+    left:50px;
+    z-index:1;
+    font-size: 15px; 
+    width:300px;
+}
+.jogue1{
+    margin-top:10px ;
+    position:absolute;
+    top: 370px;
+    left:50px;
+    z-index:1;
+    font-size: 15px; 
+    width:300px;
 }
