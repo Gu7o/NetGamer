@@ -29,7 +29,7 @@ header{
     color:white;
     text-decoration: none;
 }
-.container{
+.containermajor{
     display: flex;
     align-items: center;
     /*padding: 1%;*/
@@ -92,7 +92,13 @@ header{
     color: white;
 }
 .imgjogo{
-    margin-left:10px;
-    width:18% ;
-    height:150px ;
+    margin: 0px;
+    padding: 0px;
+    width:100% ;
+    height:100% ;
+    transition: transform 450ms;
+}
+.imgjogo:hover{
+    transform: scale(1.1);
+    opacity: 1;
 }
