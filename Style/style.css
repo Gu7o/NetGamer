@@ -21,6 +21,10 @@ header{
     color: var(--branco);
     background-color: var(--preto);
 }
+.navegacao{
+    background-color: var(--azul);
+    color: yellow;
+}
 .titulo{
     margin:1%; 
     color: red; 
